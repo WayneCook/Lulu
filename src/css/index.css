@@ -115,7 +115,7 @@ p {
   text-align: center;
   font-weight: 600;
   color: forestgreen;
-  margin-bottom: 24px;
+  margin-bottom: 34px;
 }
 
 .main-section {
@@ -215,4 +215,9 @@ p {
   font-size: 14px;
   margin-top: 40px;
   color: #3c3c3c;
+}
+
+.info-card ul {
+  font-size: 1.5rem;
+  margin-bottom: 34px;
 }
