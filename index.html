@@ -2,40 +2,92 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="./favicon.png" />
+        <!-- <link rel="shortcut icon" href="./favicon.png" /> -->
         <meta name="theme-color" content="#000000" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Simple Boilerplate</title>
         <link rel="stylesheet" type="text/css" href="src/css/index.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
         <!-- Add additional CSS & JS files as necessary here -->
     </head>
     <body>
         <!-- Add your site or application content here -->
-        <div id="root">
-            <img src="src/assets/simple-boilerplate-logo@3x.png" class="logo" alt="logo" />
-            <h1>Welcome to Simple Boilerplate!</h1>
-            <p>
-                This boilerplate is ready for HTML/CSS, Javascript, and JQuery projects. 
-                It includes a live server that lets you see HTML/JS/CSS changes with every save.
-            </p>
-            
-            <p id="subtext">
-                An Example JavaScript Hook.
-            </p>
-
-            <h2>Instructions:</h2>
-            <p>
-                To see live changes, please go to the root folder ('simple-boilerplate/')
-                and run "npm start".
-            </p>
-            <p>
-                To start coding, start changing the files within src/css and src/js. 
-                Images can be stored in src/assets.
-            </p>
+        <div class="redirect d-none d-md-flex justify-content-center align-items-center ">
+            <h3>Please visit this site on a mobile device.</h3>
         </div>
+        <div id="root" class="d-md-none d-lg-none">
+            <div class="banner-background">
+                <img class="bubble-img" src="src/assets/bubble-text.png" alt="">
+                <img class="lens-img" src="src/assets/lens-img.png" alt="">
+                <img class="superior-logo" src="src/assets/superior-logo.png" alt="">
+
+                <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+                    width="100%" height="427.000000pt" viewBox="0 0 905.000000 427.000000"
+                    preserveAspectRatio="xMidYMid slice">
+
+                    <g transform="translate(0.000000,427.000000) scale(0.100000,-0.100000)"
+                    fill="#d40000" stroke="none">
+                    <path d="M0 2229 l0 -2041 28 7 c15 4 992 245 2172 535 1180 291 2210 545
+                    2289 564 l145 36 2075 -511 c1142 -280 2136 -525 2209 -544 l132 -33 0 2014 0
+                    2014 -4525 0 -4525 0 0 -2041z"/>
+                    </g>
+                </svg>
+            
+                <!-- <img src="src/assets/simple-boilerplate-logo@3x.png" class="logo" alt="logo" /> -->
+            </div>
+            <div class="main-section">
+
+                <div class="sub-head lexend">
+                    <h3>All calls remain anonymous<span><i class="bi bi-incognito"></i></span></span></h3>
+                </div>
+
+                <div class="info-card lexend">
+                    
+                    <h3>By helping you are eligible for a</h3>
+                    <h1>REWARD</h1>
+
+                    <ul>
+                        <li>Internal Theft</li>
+                        <li>Fraud</li>
+                        <li>Shoplifting</li>
+                        <li>Vandalism</li>
+                        <li>Administrative Error</li>
+                    </ul>
+                    <p>
+                <a class="reset" href="tel:562-345-8800"><button class="button-29" role="button"><span><i class="bi bi-telephone"></i></span>Call the hotline </button></a>
+
+                        
+            </div>
+
+            <div class="footer lexend">
+                <h3 class="text-center">We are available 24/7</h3>
+                
+                <ul>
+                    <li><a class="reset" href="tel:562-345-8800"><span><i class="bi bi-telephone"></i></span>(562)345-8800</a></li>
+                    <li><a class="reset" href="mailto:lossprevention@superiorgrocers.com"><span><i class="bi bi-envelope-at"></i></span>lossprevention@superiorgrocers.com</a></li>
+                    <li><a class="reset" href="https://superiorgrocers.com/"><span><i class="bi bi-globe2"></i></span>superiorgrocers.com</a></li>
+                </ul>
+
+            </div>
+
+            <div id="copyright" class="text-center">
+                <!-- Copyright information will be dynamically inserted here -->
+              </div>
+                
+            </div>
+        </div>
+
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
         <!-- ================================ -->
         <!-- Add more JavaScript files here!! -->
         <!-- ================================ -->
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
         <script type="text/javascript" src="src/js/other.js"></script>
         <script type="text/javascript" src="src/js/index.js"></script>
     </body>
