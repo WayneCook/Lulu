@@ -72,10 +72,10 @@ p {
 .bubble-img {
   position: absolute;
   z-index: 3;
-  top: 33px;
+  top: 50px;
   right: 0;
   margin: 18px;
-  margin-right: 6px;
+  margin-right: 17px;
   width: 200px;
 }
 
@@ -196,7 +196,7 @@ p {
 .footer h3 {
   font-size: 2rem;
   margin-top: 22px;
-  margin-bottom: 18px;
+  margin-bottom: 32px;
 }
 
 .reset {
